@@ -1,5 +1,67 @@
-*.pyc
+# Python 编译缓存
+*.py[cod]
 __pycache__/
-.DS_Store
-.env
+*.so
+.cursor/
+
+# 虚拟环境
 venv/
+.venv/
+ENV/
+env/
+env.bak/
+
+# 环境配置
+.env
+*.env
+
+# 忽略所有 Jupyter Notebook 文件
+*.ipynb
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# macOS 系统文件
+.DS_Store
+
+# VS Code 编辑器配置
+.vscode/
+
+# PyCharm 项目配置
+.idea/
+
+# 单元测试缓存
+.pytest_cache/
+.tox/
+coverage.*
+.cache/
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+
+# mypy 静态类型检查缓存
+.mypy_cache/
+.dmypy.json
+
+# profiling 数据
+*.prof
+
+# 安装时生成的临时文件
+*.egg-info/
+*.egg
+dist/
+build/
+*.manifest
+*.spec
+
+# pipenv / poetry 文件
+Pipfile.lock
+poetry.lock
+
+# log 文件
+*.log
+
+# 其他临时文件
+*.bak
+*.tmp
