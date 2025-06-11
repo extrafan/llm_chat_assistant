@@ -1,6 +1,6 @@
 import config
 import requests
-from classes.prompt import PromptRequest
+from classes.config import PromptRequest
 
 def generate_code(data: PromptRequest):
     prompt = data.prompt           # 获取用户输入的提问
